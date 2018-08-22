@@ -17,7 +17,7 @@ let g:loaded_minscm = 1
 
 let s:statusReports = {}
 "
-function! g:minscm_getStatus()
+function! s:minscm_getStatus()
   return minscm#getStatusReport(minscm#getTargetDir())
 endfunction
 
